@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your flight NOW!</title>
+    <style>
+        .outerbox{
+            display: flex;
+            width: 100%; 
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }        
+        body{
+            background-image:url('https://s-i.huffpost.com/gen/1106361/images/o-AIRPLANES-MOBILE-facebook.jpg') ;
+            background-size: cover;
+             height: 100vh;
+
+
+        }
+        .innerbox{
+            background: #ffffffb0;
+            width: 300px;
+            padding: 20px;
+        }
+        .book{
+            text-align: center;
+    font-style: italic;
+    font-size: 53px;
+    color: yellow;
+    margin-bottom: 62px;
+        }
+        .margin{
+            display: flex;
+            margin-bottom: 36px;
+            justify-content: center;
+            align-items: center;
+        }
+        .submit-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px ;
+        }
+        h4{
+            margin:0px;
+            text-align: center;
+        }
+        .radio-btn{
+            display: flex;
+            flex-direction: row  ;
+            justify-content: center;
+            align-items: center;
+        }
+        h5{
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="book">Book your flight</h1>
+    <div class="outerbox">
+        <div class="innerbox">
+            <form>
+                <h4> passenger 1</h4>
+                <div class="margin top-space">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="passenger 1" required> 
+                </div>
+                <h4> passenger 2</h4>
+                <div class="margin">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="passenger 2 " > 
+                </div>
+                <h4> passenger 3</h4>
+                <div class="margin">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="passenger 3" > 
+                </div>
+                <h4> passenger 4</h4>
+                <div class="margin">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="passenger 4" > 
+                </div>
+                <h4> passenger 5</h4>
+                <div class="margin">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="passenger 5" > 
+                </div>
+                <h4> passenger 6</h4>
+                <div class="margin">
+                    <i class="bi bi-person"></i>
+                    <input type="text" placeholder="passenger 6" > 
+                </div>
+                     <h5> trip preference</h5>
+                <div class="radio-btn">
+                    <input type="radio"> taxi
+                    <input type="radio"> train
+                    <input type="radio"> flight
+                </div>
+                <div class="submit-btn">
+                    <input type="submit" value="Submit and pay">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<!-- homework: add styling to input tags and final touches  -->
